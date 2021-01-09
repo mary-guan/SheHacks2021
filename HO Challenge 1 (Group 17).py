@@ -40,13 +40,10 @@ while status == False:
     
             elif user_in < random_num:
                 print("Good try, guess higher!")
-                from tkinter import messagebox
-                messagebox.showinfo("Try again!", "Your guess was too low!")
 
             elif user_in > random_num:
                 print("Good try, guess lower!")
-                from tkinter import messagebox
-                messagebox.showinfo("Try again!", "Your guess was too high!")
+                
         else:
             print("Please guess in the range!")
     else:
